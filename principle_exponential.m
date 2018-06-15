@@ -4,6 +4,7 @@ function y = principle_exponential(tau,time)
 % y(n,:) = exp(-t/tau(n))
 
 t = reshape(time,1,[]);
+
 taus = reshape(tau,1,[]);
 [TAU, T] = ndgrid(taus,t);
 x = -T./TAU;
