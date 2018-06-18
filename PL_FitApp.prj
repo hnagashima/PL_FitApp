@@ -1,0 +1,78 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="4146611174" file="C:\Users\hiroki\SourceCode\ExponentialFittingToolbox\PL_FitApp.prj" location="C:\Users\hiroki\SourceCode\ExponentialFittingToolbox" name="PL_FitApp" target="target.mlapps" target-name="Package App">
+    <param.appname>PL_FitApp</param.appname>
+    <param.authnamewatermark>Hiroki Nagashima</param.authnamewatermark>
+    <param.email>hnagashima.r@gmail.com</param.email>
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary>小堀研究室の蛍光寿命</param.summary>
+    <param.description />
+    <param.screenshot />
+    <param.version>1.1</param.version>
+    <param.products.name>
+      <item>MATLAB</item>
+      <item>Optimization Toolbox</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+      <item>6</item>
+    </param.products.id>
+    <param.products.version>
+      <item>9.4</item>
+      <item>8.1</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>C:\Users\hiroki\SourceCode\ExponentialFittingToolbox</param.output>
+    <param.guid>4af098bf-8a42-40fe-aa55-1d086bd401d5</param.guid>
+    <unset>
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.description />
+      <param.screenshot />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\PL_FitApp.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\ExponConv.m</file>
+      <file>${PROJECT_ROOT}\ExponFitting.m</file>
+      <file>${PROJECT_ROOT}\principle_exponential.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\hiroki\SourceCode" name="ExponentialFittingToolbox" optional="false">C:\Users\hiroki\SourceCode\ExponentialFittingToolbox</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2018a</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
